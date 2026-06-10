@@ -23,6 +23,8 @@ def play_game(net, genome, env, seed=None):
 
 
 def get_score(net, genome, env, seeds):
-    # play a few different levels and average them
+    # play a few different levels and combine the scores
     scores = [play_game(net, genome, env, s) for s in seeds]
+    if cfg.eval_agg == "min":
+        return min(scores)
     return sum(scores) / len(scores)
