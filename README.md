@@ -5,7 +5,7 @@
 # neuroflap
 </div>
 
-### A neural network that learns to play Flappy Bird with **no backpropagation**: only a genetic algorithm (neuroevolution). Built from scratch in Python with [NumPy](https://github.com/numpy/numpy), playing the game from [flappy-bird-gymnasium](https://github.com/markub3327/flappy-bird-gymnasium) on the [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) API
+### A neural network that learns to play Flappy Bird with **no backpropagation**: only a genetic algorithm, a type of evolutionary algorithm (neuroevolution). Built from scratch in Python with [NumPy](https://github.com/numpy/numpy), playing the game from [flappy-bird-gymnasium](https://github.com/markub3327/flappy-bird-gymnasium) on the [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) API
 
 <div align="center">
 
